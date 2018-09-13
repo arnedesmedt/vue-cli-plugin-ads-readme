@@ -1,5 +1,5 @@
 {
-  "name": "@arnedesmedt/vue-cli-plugin-ads-readme",
+  "name": "vue-cli-plugin-ads-readme",
   "version": "1.0.0",
   "scripts": {
     "lint": "vue-cli-service lint",
