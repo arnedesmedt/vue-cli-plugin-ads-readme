@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-ads-readme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "lint": "vue-cli-service lint",
     "preversion": "npm run lint",
@@ -27,6 +27,11 @@
     "cli",
     "plugin",
     "readme"
+  ],
+  "files": [
+    "/generator",
+    "index.js",
+    "prompts.js"
   ],
   "description": "Vue CLI Plugin that creates a default README file for my vue packages."
 }
