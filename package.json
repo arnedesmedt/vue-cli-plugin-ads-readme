@@ -28,5 +28,10 @@
     "plugin",
     "readme"
   ],
+  "files": [
+    "/generator",
+    "index.js",
+    "prompts.js"
+  ],
   "description": "Vue CLI Plugin that creates a default README file for my vue packages."
 }
