@@ -66,7 +66,7 @@ Read the [CHANGELOG](CHANGELOG.md) file to check what has changed.
 
 ## Issues
 
-If you have any issues (bugs, features, ...) on the current project, add them [here](https://gitlab.com/arnedesmedt/<%= project %>/issues/new).
+If you have any issues (bugs, features, ...) on the current project, add them [here](https://github.com/arnedesmedt/<%= project %>/issues/new).
 
 ## Contributing
 
