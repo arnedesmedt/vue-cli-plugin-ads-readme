@@ -84,3 +84,7 @@ Want to make a donation?
 That would be highly appreciated!
 
 Make a donation via [PayPal](https://www.paypal.me/arnedesmedt).
+
+## Hire me
+
+Do you need some Vue expertise? Contact me via [mail](mailto:&#097;&#114;&#110;&#101;&#100;&#101;&#115;&#109;&#100;&#116;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;)

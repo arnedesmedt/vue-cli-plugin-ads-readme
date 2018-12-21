@@ -1,5 +1,5 @@
 ## Changelog
 
-#### v1.0.0 - YYYY/MM/DD
+#### v0.0.1 - DD/MM/YYYY
 
 - Initial release.
