@@ -1,1 +1,4 @@
-module.exports = (api, options) => {};
+module.exports = (
+    api,
+    options //eslint-disable-line no-unused-vars
+) => {};
