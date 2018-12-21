@@ -1,8 +1,4 @@
-module.exports = (
-    api,
-    options,
-    rootOptions
-) => {
+module.exports = (api, options, rootOptions) => {
     api.render(
         './template',
         {
