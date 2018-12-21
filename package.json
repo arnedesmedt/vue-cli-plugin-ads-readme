@@ -1,37 +1,40 @@
 {
-  "name": "vue-cli-plugin-ads-readme",
-  "version": "1.0.5",
-  "scripts": {
-    "lint": "vue-cli-service lint",
-    "preversion": "npm run lint",
-    "postversion": "git push && git push --tags"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-eslint": "^3.0.2",
-    "@vue/cli-service": "^3.0.3",
-    "@vue/eslint-config-standard": "^3.0.3"
-  },
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/arnedesmedt/vue-cli-plugin-ads-readme.git"
-  },
-  "author": "Arne De Smedt <arnedesmdt@gmail.com> (https://twitter.com/ArneSmedt)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/arnedesmedt/vue-cli-plugin-ads-readme/issues"
-  },
-  "homepage": "https://github.com/arnedesmedt/vue-cli-plugin-ads-readme#readme",
-  "keywords": [
-    "vue",
-    "cli",
-    "plugin",
-    "readme"
-  ],
-  "files": [
-    "/generator",
-    "index.js",
-    "prompts.js"
-  ],
-  "description": "Vue CLI Plugin that creates a default README file for my vue packages."
+    "private": false,
+    "name": "vue-cli-plugin-ads-readme",
+    "description": "Vue CLI Plugin that creates a default README file for my vue packages.",
+    "license": "MIT",
+    "author": "Arne De Smedt <arnedesmdt@gmail.com> (https://twitter.com/ArneSmedt)",
+    "homepage": "https://github.com/arnedesmedt/vue-cli-plugin-ads-readme#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/arnedesmedt/vue-cli-plugin-ads-readme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/arnedesmedt/vue-cli-plugin-ads-readme/issues"
+    },
+    "version": "1.0.5",
+    "main": "index.js",
+    "files": [
+        "/generator",
+        "prompts.js"
+    ],
+    "scripts": {
+        "lint": "vue-cli-service lint .",
+        "package-lint": "prettier-package-json --write --tab-width=4 ./package.json",
+        "preversion": "export NODE_ENV=production && npm run lint && npm run package-lint",
+        "postversion": "git push && git push --tags"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-eslint": "^3.2.1",
+        "@vue/cli-service": "^3.2.0",
+        "@vue/eslint-config-standard": "^4.0.0",
+        "eslint-config-ads": "^1.0.2",
+        "prettier-package-json": "^2.0.1"
+    },
+    "keywords": [
+        "cli",
+        "plugin",
+        "readme",
+        "vue"
+    ]
 }
